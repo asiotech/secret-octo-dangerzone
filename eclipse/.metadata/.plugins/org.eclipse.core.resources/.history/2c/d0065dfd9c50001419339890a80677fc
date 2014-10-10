@@ -1,0 +1,17 @@
+package com.oefenmod.blocks;
+
+import com.oefenmod.oefenmod.OefenMod;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class OefenBlock extends Block {
+
+	protected OefenBlock(String unlocalizedName ,Material material) {
+		super(material);
+		this.setBlockName(unlocalizedName);
+		this.setBlockTextureName(OefenMod.MODID + ":" + unlocalizedName);
+	}
+	
+	
+}

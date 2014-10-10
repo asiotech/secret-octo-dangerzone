@@ -1,0 +1,7 @@
+package com.oefenmod.blocks;
+
+public class OefenBlock extends Block {
+	
+	
+	
+}

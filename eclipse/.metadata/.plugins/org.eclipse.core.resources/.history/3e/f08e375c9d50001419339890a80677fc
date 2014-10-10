@@ -1,0 +1,14 @@
+package com.oefenmod.blocks;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+
+public class ModBlocks {
+
+	public static Block oefenBlock;
+	
+	public static final void init()
+	{
+		GameRegistry.registerBlock(oefenBlock = new OefenBlock("oefenBlock", Material.iron), "oefenBlock");
+	}
+}

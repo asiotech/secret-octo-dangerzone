@@ -1,0 +1,13 @@
+package com.oefenmod.blocks;
+
+import net.minecraft.block.Block;
+
+public class ModBlocks {
+
+	public static Block oefenBlock;
+	
+	public static final void init()
+	{
+		
+	}
+}

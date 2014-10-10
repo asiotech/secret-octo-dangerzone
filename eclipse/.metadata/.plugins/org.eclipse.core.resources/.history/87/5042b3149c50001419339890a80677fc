@@ -1,0 +1,9 @@
+package com.oefenmod.blocks;
+
+import net.minecraft.block.Block;
+
+public class OefenBlock extends Block {
+	
+	
+	
+}

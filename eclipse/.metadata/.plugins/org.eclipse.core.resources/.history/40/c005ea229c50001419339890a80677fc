@@ -1,0 +1,11 @@
+package com.oefenmod.blocks;
+
+public class ModBlocks {
+
+	public static Block oefenBlock;
+	
+	public static final void init()
+	{
+		
+	}
+}
