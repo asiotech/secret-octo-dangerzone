@@ -1,0 +1,9 @@
+package com.oefenmod.itemblock;
+
+public class ItemBlockMetaBlock extends ItemBlockWithMetadata{
+	
+	public ItemBlockMetaBlock(Block block)
+	{
+		super(block, block);
+	}
+}

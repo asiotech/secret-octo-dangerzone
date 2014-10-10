@@ -1,0 +1,18 @@
+package com.oefenmod.blocks;
+
+import com.oefenmod.oefenmod.OefenMod;
+
+import net.minecraft.block.Block;
+
+public class MultitextureBlock extends Block{
+	
+	protected MultitextureBlock(String unlocalizedName, Material material)
+	{
+		super(material);
+		this.setBlockName(unlocalizedName);
+		this.setBlockTextureName(OefenMod.MODID + ":" + unlocalizedName);
+		this.setCreativeTab(CreativeTabs.tabBlock);
+		
+	}
+	
+}

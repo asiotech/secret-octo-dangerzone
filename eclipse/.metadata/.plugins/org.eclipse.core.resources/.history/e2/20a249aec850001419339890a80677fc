@@ -1,0 +1,13 @@
+package com.oefenmod.item;
+
+import net.minecraft.item.Item;
+
+public class MetaItem extends Item{
+	
+	public MetaItem(String unlocalizedName)
+	{
+		super();
+		this.setUnlocalizedName(unlocalizedName);
+		this.setCreativeTab(CreativeTabs.tabMaterials);
+	}
+}

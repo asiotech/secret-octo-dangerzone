@@ -1,9 +1,9 @@
 [
 {
-  "modid": "${modid}",
-  "name": "${name}",
+  "modid": "${MODID}",
+  "name": "${NAME}",
   "description": "Oefen mod voor tests.",
-  "version": "${version}",
+  "version": "${VERSION}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",

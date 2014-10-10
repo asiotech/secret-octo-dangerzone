@@ -2,3 +2,18 @@
 
 item.oefenItem.name=Oefen Item
 tile.oefenBlock.name=Oefen Block
+tile.multitexture.name= MultiTexture
+
+tile.metablock_white.name=Metablock 0 (White)
+tile.metablock_black.name=Metablock 1 (Black)
+tile.metablock_red.name=Metablock 2 (Red)
+tile.metablock_green.name=Metablock 3 (Green)
+tile.metablock_yellow.name=Metablock 4 (Yellow)
+tile.metablock_blue.name=Metablock 5 (Blue)
+
+item.metaItem_white.name=Metaitem 0 (White)
+item.metaItem_black.name=Metaitem 1 (Black)
+item.metaItem_red.name=Metaitem 2 (Red)
+item.metaItem_green.name=Metaitem 3 (Green)
+item.metaItem_yellow.name=Metaitem 4 (Yellow)
+item.metaItem_blue.name=Metaitem 5 (Blue)
