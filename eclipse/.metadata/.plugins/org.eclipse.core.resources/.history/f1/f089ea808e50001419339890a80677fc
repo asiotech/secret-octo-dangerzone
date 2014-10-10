@@ -1,0 +1,13 @@
+package com.oefenmod.items;
+
+import net.minecraft.init.Item;
+
+public final class Items {
+	
+	public static Item oefenItem;
+	
+	public static final void init()
+	{
+		
+	}
+}

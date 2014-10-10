@@ -1,0 +1,11 @@
+package com.oefenmod.items;
+
+public final class Items {
+	
+	public static Item oefenItem;
+	
+	public static final void init()
+	{
+		
+	}
+}
