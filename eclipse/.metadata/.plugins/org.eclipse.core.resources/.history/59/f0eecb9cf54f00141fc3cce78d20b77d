@@ -1,0 +1,14 @@
+package com.oefenmod.oefenmod;
+
+@Mod(modid = OefenMod.MODID, version = ExampleMod.VERSION)
+public class OefenMod 
+{
+	public static final String MODID = "OefenMod";
+	public static final String VERSION = "0.1";
+	
+	@EventHandler
+	public void init(FMLInitializationEvent event)
+	{
+		System.out.println("DIRT BLOCK >>"+Block.dirt.getUnlocalizedName());
+	}
+}

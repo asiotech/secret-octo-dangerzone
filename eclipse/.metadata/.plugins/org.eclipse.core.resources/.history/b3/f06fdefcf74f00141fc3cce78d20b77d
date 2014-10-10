@@ -1,0 +1,16 @@
+[
+{
+  "modid": "oefenmod",
+  "name": "Oefen Mod",
+  "description": "Oefen mod voor tests.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["asiotech"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,22 @@
+package com.oefenmod.oefenmod;
+
+import net.minecraft.init.Blocks;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+
+@Mod(modid = OefenMod.MODID, version = OefenMod.VERSION, name = OefenMod.NAME)
+public class OefenMod 
+{
+	public static final String MODID = "OefenMod";
+	public static final String VERSION = "0.1";
+	publid static final String NAME = "Oefen";
+	
+	@EventHandler
+	public void init(FMLInitializationEvent event)
+	{
+		System.out.println("DIRT BLOCK >>"+Blocks.dirt.getUnlocalizedName());
+	}
+	
+	
+}
