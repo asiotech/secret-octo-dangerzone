@@ -1,0 +1,70 @@
+package com.oefenmod.item;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
+
+import com.oefenmod.Main;
+import com.oefenmod.item.tool.ItemModAxe;
+import com.oefenmod.item.tool.ItemModHoe;
+import com.oefenmod.item.tool.ItemModPickaxe;
+import com.oefenmod.item.tool.ItemModShovel;
+import com.oefenmod.item.tool.ItemModSword;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public final class ModItems {
+
+	public static Item oefenItem;
+	public static Item metaItem;
+	
+	public static Item oefenPickaxe;
+	public static Item oefenAxe;
+	public static Item oefenShovel;
+	public static Item oefenHoe;
+	public static Item oefenSword;
+	
+	//addToolMaterial(name, harvestLevel, maxUses, efficiency, damage, enchantability)
+	//harvestLevel: wood/gold = 0, diamond = 3
+	//maxUses: wood = 59, iron = 250, diamond = 1561
+	//efficiency: wood = 2.0F, diamond = 8.0F, gold = 12.0F
+	//damage: wood = 0.0F, diamond = 3.0F. Sword is always 4 higher
+	//enchantability: wood = 15, gold = 22, diamond = 10
+	public static ToolMaterial OEFEN = EnumHelper.addToolMaterial("OEFEN", 1, 2, 20.0F, 27.0F, 40);
+
+	public static final void init() 
+	{
+		//GameRegistry.registerItem(ITEM TO REGISTER, NAME)
+		registerItemsWithoutClass();
+		registerMetaItems();
+		registerTools();
+	}
+	
+	
+	private static void registerTools()
+	{
+		//OEFEN Tools
+		GameRegistry.registerItem(oefenPickaxe = new ItemModPickaxe("tutorial_pickaxe", OEFEN), "oefen_pickaxe");
+		GameRegistry.registerItem(oefenAxe = new ItemModAxe("tutorial_axe", OEFEN), "oefen_axe");
+		GameRegistry.registerItem(oefenShovel = new ItemModShovel("tutorial_spade", OEFEN), "oefen_shovel");
+		GameRegistry.registerItem(oefenHoe = new ItemModHoe("tutorial_hoe", OEFEN), "oefen_hoe");
+		GameRegistry.registerItem(oefenSword = new ItemModSword("tutorial_sword", OEFEN), "oefen_sword");
+	}
+	
+	private static void registerMetaItems()
+	{
+		//metaItem
+		GameRegistry.registerItem(metaItem = new MetaItem("metaItem"), "metaItem");
+	}
+	
+	private static void registerItemWithoutClass()
+	{
+		//OefenItem
+		GameRegistry.registerItem(
+				oefenItem = new Item().setUnlocalizedName("oefenItem")
+						.setCreativeTab(CreativeTabs.tabMisc)
+						.setTextureName(Main.MODID + ":oefenItem"),
+				"oefenItem");
+	}
+}

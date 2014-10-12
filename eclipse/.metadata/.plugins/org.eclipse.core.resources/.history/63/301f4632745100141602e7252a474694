@@ -1,0 +1,6 @@
+package com.oefenmod.item.armor;
+
+public class ItemModArmor extends ItemArmor{
+	
+	
+}

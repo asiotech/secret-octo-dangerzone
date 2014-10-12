@@ -14,4 +14,11 @@
 <fullyQualifiedTypeName name="com.oefenmod.OefenMod"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.util.EnumHelper"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemAxe"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemSpade"/>
+<fullyQualifiedTypeName name="com.oefenmod.Main"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.Potion"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.PotionEffect"/>
 </qualifiedTypeNameHistroy>

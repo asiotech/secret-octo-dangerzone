@@ -1,0 +1,19 @@
+package com.oefenmod.item.armor;
+
+import com.oefenmod.Main;
+
+import net.minecraft.item.ItemArmor;
+
+public class ItemModArmor extends ItemArmor {
+	
+	public String textureName;
+	
+	public ItemModArmor(String unlocalizedName, ArmorMaterial material, String textureName, int type)
+	{
+		super(material, 0, type);
+		this.textureName = textureName;
+		this.setUnlocalizedName(unlocalizedName);
+		this.setTextureName(Main.MODID + ":" + unlocalizedName);
+	}
+	
+}

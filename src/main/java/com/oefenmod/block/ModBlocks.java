@@ -16,7 +16,7 @@ public class ModBlocks {
 	public static final void init()
 	{
 		GameRegistry.registerBlock(oefenBlock = new OefenBlock("oefenBlock", Material.iron), "oefenBlock");
-		GameRegistry.registerBlock(multitexture = new MultitextureBlock("multitexture", Material.cloth), "multitexture");
-		GameRegistry.registerBlock(metablock = new MetaBlock("metablock", Material.cloth), ItemBlockMetaBlock.class, "metablock");
+		//GameRegistry.registerBlock(multitexture = new MultitextureBlock("multitexture", Material.cloth), "multitexture");
+		//GameRegistry.registerBlock(metablock = new MetaBlock("metablock", Material.cloth), ItemBlockMetaBlock.class, "metablock");
 	}
 }

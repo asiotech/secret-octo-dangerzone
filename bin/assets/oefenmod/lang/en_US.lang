@@ -17,3 +17,9 @@ item.metaItem_red.name=Metaitem 2 (Red)
 item.metaItem_green.name=Metaitem 3 (Green)
 item.metaItem_yellow.name=Metaitem 4 (Yellow)
 item.metaItem_blue.name=Metaitem 5 (Blue)
+
+item.oefen_pickaxe.name=Oefen Pickaxe
+item.oefen_hoe.name=Oefen Hoe
+item.oefen_axe.name=Oefen Axe
+item.oefen_shovel.name=Oefen Shovel
+item.oefen_sword.name=Oefen Sword

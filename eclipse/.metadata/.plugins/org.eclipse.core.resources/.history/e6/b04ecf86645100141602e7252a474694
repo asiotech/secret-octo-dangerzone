@@ -1,0 +1,11 @@
+package com.oefenmod.item.tool;
+
+import net.minecraft.item.ItemSword;
+
+public class ItemModSword extends ItemSword{
+	
+	public ItemModSword(ToolMaterial material)
+	{
+		super(material)
+	};
+}

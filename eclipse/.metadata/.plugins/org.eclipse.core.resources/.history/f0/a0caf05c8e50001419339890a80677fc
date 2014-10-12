@@ -1,8 +1,0 @@
-package com.oefenmod.items;
-
-public final class Items {
-	public static final void init()
-	{
-		
-	}
-}
